@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="w-full flex flex-col h-full items-center bg-[#f7f6f3]">
       <BannerHome
-        BannerSize="w-full h-[41%]"
+        BannerSize="w-full h-[80%]"
         imageSrc="/fundo.png"
         textClassName="font-serif text-[70px] text-white tracking-wide leading-tight"
         text="CleanGirl Café"
@@ -20,13 +20,13 @@ export default function Home() {
             BannerSize="w-full h-[25%] rounded-xl overflow-hidden"
             imageSrc="/iconeBebidas.png"
             textClassName="font-serif text-[30px] text-white tracking-wide leading-tight"
-            text="CleanGirl Café"
+            text="Bebidas"
           />
           <BannerHome
             BannerSize="w-full h-[25%] rounded-xl overflow-hidden"
             imageSrc="/iconeComidas.png"
             textClassName="font-serif text-[30px] text-white tracking-wide leading-tight"
-            text="CleanGirl Café"
+            text="Comidas"
           />
         </div>
       </div>
