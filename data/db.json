@@ -1,0 +1,115 @@
+{
+  "comidas": [
+    {
+      "id": "C-01",
+      "title": "Croissant Artesanal",
+      "price": 38,
+      "imageSrc": "/menuComidas/CroissantArtesanal.jpg",
+      "liked": true,
+      "type": "comidas",
+      "descricao": "Massa folhada leve e amanteigada, servido aquecido, ideal para consumo rápido.",
+      "tags": []
+    },
+    {
+      "id": "C-02",
+      "title": "Toast de Avocado Clean",
+      "price": 42,
+      "imageSrc": "/menuComidas/ToastdeAvocadoClean.jpg",
+      "liked": false,
+      "type": "comidas",
+      "descricao": "Pão artesanal com avocado temperado, apresentação clean e foco em alimentação equilibrada.",
+      "tags": [
+        "Sem lactose",
+        "Vegano"
+      ]
+    },
+    {
+      "id": "C-03",
+      "title": "Banana Bread Premium",
+      "price": 28,
+      "imageSrc": "/menuComidas/BananaBreadPremium.jpg",
+      "liked": true,
+      "type": "comidas",
+      "descricao": "Receita caseira, textura macia e sabor suave, perfeita para acompanhar cafés especiais.",
+      "tags": [
+        "Sem gluten",
+        "Vegano"
+      ]
+    },
+    {
+      "id": "C-04",
+      "title": "Bolo de Limão Siciliano",
+      "price": 26,
+      "imageSrc": "/menuComidas/BolodeLimaoSiciliano.jpg",
+      "liked": false,
+      "type": "comidas",
+      "descricao": "Massa leve com cobertura delicada, equilibrando doçura e acidez.",
+      "tags": []
+    },
+    {
+      "id": "C-05",
+      "title": "Cookie de Chocolate Belga",
+      "price": 22,
+      "imageSrc": "/menuComidas/CookiedeChocolateBelga.jpg",
+      "liked": false,
+      "type": "comidas",
+      "descricao": "Cookie artesanal, crocante por fora e macio por dentro, com chocolate de alta qualidade.",
+      "tags": []
+    }
+  ],
+  "bebidas": [
+    {
+      "id": "B-01",
+      "title": "Espresso Clean Roast",
+      "price": 11,
+      "imageSrc": "/menuBebidas/EspressoCleanRoast.jpg",
+      "liked": true,
+      "type": "bebidas",
+      "descricao": "Café especial de torra média, extração precisa e sabor equilibrado, servido puro ou duplo.",
+      "tags": [
+        "Sem lactose",
+        "Vegano"
+      ]
+    },
+    {
+      "id": "B-02",
+      "title": "Latte Clean Girl",
+      "price": 16,
+      "imageSrc": "/menuBebidas/LatteCleanGirl.jpg",
+      "liked": true,
+      "type": "bebidas",
+      "descricao": "Espresso com leite vaporizado, textura cremosa e final suave, assinatura da cafeteria.",
+      "tags": []
+    },
+    {
+      "id": "B-03",
+      "title": "Iced Latte Vanilla",
+      "price": 17.5,
+      "imageSrc": "/menuBebidas/IcedLatteVanilla.jpg",
+      "liked": false,
+      "type": "bebidas",
+      "descricao": "Café gelado com leite e toque sutil de baunilha, refrescante e visualmente atrativo.",
+      "tags": []
+    },
+    {
+      "id": "B-04",
+      "title": "Cappuccino Artesanal",
+      "price": 15.5,
+      "imageSrc": "/menuBebidas/CappuccinoArtesanal.jpg",
+      "liked": false,
+      "type": "bebidas",
+      "descricao": "Espresso, leite vaporizado e espuma equilibrada, finalizado com estética minimalista.",
+      "tags": []
+    },
+    {
+      "id": "B-05",
+      "title": "Matcha Latte Creamy",
+      "price": 18,
+      "imageSrc": "/menuBebidas/MatchaLatteCreamy.jpg",
+      "liked": false,
+      "type": "bebidas",
+      "descricao": "Matcha premium com leite, sabor delicado e apelo saudável, alinhado ao público urbano.",
+      "tags": []
+    }
+  ]
+}
