@@ -11,19 +11,22 @@ export type MenuItem = {
   liked: boolean; // true/false
   type: "comidas" | "bebidas";
   descricao: string; // "cappuccino com..."
-  tags: string[];
+  tags: string[]; // ["Sem lactose", "Vegano", ...]
 };
 
+// Estrutura do banco de dados
 export type Db = {
   comidas: MenuItem[];
   bebidas: MenuItem[];
 };
 
+// Função para ler o banco de dados JSON
 export async function readDb(): Promise<Db> {
   const raw = await fs.readFile(DB_PATH, "utf8");
   return JSON.parse(raw) as Db;
 }
 
+// Função para escrever no banco de dados JSON
 export async function writeDb(db: Db) {
   await fs.writeFile(DB_PATH, JSON.stringify(db, null, 2), "utf8");
 }

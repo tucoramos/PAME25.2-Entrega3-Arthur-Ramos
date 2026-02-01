@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -17,7 +16,6 @@ interface Props {
   href?: string;
 }
 
-//imagesrc.slice(1, -4)
 const BannerHome = (props: Props) => {
   return (
     <div className={`relative ${props.BannerSize}`}>

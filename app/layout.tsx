@@ -23,6 +23,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Layout principal da aplicação com sidebar
   return (
     <html lang="en" className="h-full">
       <body

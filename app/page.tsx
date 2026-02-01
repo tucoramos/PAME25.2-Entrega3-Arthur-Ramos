@@ -3,6 +3,7 @@ import BannerHome from "./components/BannerHome";
 import ItemDoDia from "./components/ItemDoDia";
 
 export default function Home() {
+  // Página inicial do site
   return (
     <div className="w-full flex flex-col h-full items-center bg-[#f7f6f3]">
       <BannerHome
